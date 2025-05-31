@@ -1,4 +1,3 @@
-setwd("D:/文件/凤蝶/")
 library(ggplot2)
 library(gground)
 library(ggprism)
