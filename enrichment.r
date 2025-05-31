@@ -107,7 +107,7 @@ a<-ggplot(data,aes(-log10(qvalue), y = index, fill = ONTOLOGY)) +
     legend.title = element_text()
   )
 
-pdf('pathway.pdf', width =10, height =8)
+pdf('enrichment.pdf', width =10, height =8)
 a
 dev.off()
 
